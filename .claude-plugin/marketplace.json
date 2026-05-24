@@ -8,7 +8,10 @@
   "plugins": [
     {
       "name": "feature-development",
-      "source": "github:sukenshah/claude-feature-development-plugin",
+      "source": {
+        "source": "github",
+        "repo": "sukenshah/claude-feature-development-plugin"
+      },
       "version": "0.1.0",
       "description": "Feature development workflow: requirements gathering, design/architecture planning, parent-orchestrated implementation, and independent code review.",
       "author": {
@@ -20,7 +23,10 @@
     },
     {
       "name": "project-memory",
-      "source": "github:sukenshah/claude-code-project-memory",
+      "source": {
+        "source": "github",
+        "repo": "sukenshah/claude-code-project-memory"
+      },
       "description": "Persistent long-term memory for Claude via per-project SQLite store. Surfaces past decisions, mistakes, and blockers across sessions.",
       "version": "1.0.0",
       "author": {
