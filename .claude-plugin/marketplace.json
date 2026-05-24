@@ -28,7 +28,7 @@
         "repo": "sukenshah/claude-code-project-memory"
       },
       "description": "Persistent long-term memory for Claude via per-project SQLite store. Surfaces past decisions, mistakes, and blockers across sessions.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Suken Shah"
       },
