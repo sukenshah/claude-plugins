@@ -1,0 +1,20 @@
+{
+  "name": "engineering-marketplace",
+  "owner": {
+    "name": "sukenshah",
+    "url": "https://github.com/sukenshah"
+  },
+  "description": "Marketplace hosting the feature-development plugin and related engineering workflow tooling.",
+  "plugins": [
+    {
+      "name": "feature-development",
+      "source": "github:sukenshah/claude-feature-development-plugin",
+      "version": "0.1.0",
+      "description": "Feature development workflow: requirements gathering, design/architecture planning, parent-orchestrated implementation, and independent code review.",
+      "author": {
+        "name": "Suken Shah"
+      },
+      "tags": ["workflow", "requirements", "design", "review"]
+    }
+  ]
+}
